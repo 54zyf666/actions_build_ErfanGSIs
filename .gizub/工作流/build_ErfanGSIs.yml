@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.QEECNXM/miui_MIMIX3_V11.0.3.0.QEECNXM_4d73488207_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://alphaone-my.sharepoint.cn/personal/6yun_vip_tg/_layouts/15/download.aspx?UniqueId=452a5ac0-52ed-4bdd-bf80-92609914cfeb&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYWxwaGFvbmUtbXkuc2hhcmVwb2ludC5jbkAzYjFjODFiMS1kMTU2LTRhZjktYjE2OS1hZTA4MTI4YzAzOTYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNTk5MTgzNDUzIiwiZXhwIjoiMTU5OTE4NzA1MyIsImVuZHBvaW50dXJsIjoiRlkvL2JIazJ2MkxKVzRBYWFjcW1rcXdITEZVbFNrck1KZTc5am1IZE5XST0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE0MiIsImlzbG9vcGJhY2siOiJUcnVlIiwiY2lkIjoiWVRSaE9UbGxNRFV0TUdSaE1pMDBNekEwTFdJM01UVXROakZqTjJFMk5EWXdZMkl3IiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik5UWXpNamxsTVdZdFlUbGlNeTAwTTJObUxUbGpNamN0TURKaU1qZzVaVGxqTjJJMiIsImFwcF9kaXNwbGF5bmFtZSI6IjZ5dW5hIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsImFwcGlkIjoiMTIxY2Q0ZWEtZWUxMi00ZDY3LThiMWYtOGY5MGVjMGNkZDQwIiwidGlkIjoiM2IxYzgxYjEtZDE1Ni00YWY5LWIxNjktYWUwODEyOGMwMzk2IiwidXBuIjoiNnl1bkB2aXAudGciLCJwdWlkIjoiMTAwMzMyMzBDNTY4MkE5QyIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMzMjMwYzU2ODJhOWNAbGl2ZS5jb20iLCJzY3AiOiJhbGxmaWxlcy53cml0ZSIsInR0IjoiMiIsInVzZVBlcnNpc3RlbnRDb29raWUiOm51bGx9.anYyN3piT3RCRmd1RENULzdPNElFcWZJcTZEVnYyYW9vUFgyMFk0NUtrMD0&ApiVersion=2.0
+  ROM_NAME: flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
